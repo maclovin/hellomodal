@@ -29,7 +29,7 @@ _Actually the hello component check if you got a JSS object created or not.  So,
 
 
 
-# Usage Examples
+## Usage Examples
 
 Markup:
 
