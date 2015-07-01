@@ -2,7 +2,7 @@
 
 The Modal Component For Developers
 
-## Instalation and requirements
+## Installation and requirements
 - Install jQuery
 - Copy hello minified in "/dist" folder to your lib directory.
 
