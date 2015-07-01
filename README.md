@@ -59,7 +59,10 @@ Javascript:
 		height: 300,
 		animation: true,
 		shadow, true,
-		ajax: '/something.html'
+		ajax: '/something.html',
+		submit: function() { 
+			alert('sup, dude :P'); 
+		}
 	});
 	
 	myModal.show();
