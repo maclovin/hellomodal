@@ -3,7 +3,7 @@
   var helloInitialize;
 
   helloInitialize = function (elem) {
-    event.preventDefault();
+    elem.defaultPrevented;
     var exampleModal;
 
     exampleModal = new Hello({
