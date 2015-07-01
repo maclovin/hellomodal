@@ -19,10 +19,7 @@
       submit: $(this).attr('hello-submit') ? function () {
         alert('Form submited!');
       } : false,
-      close: $(this).attr('hello-close') ? function () {
-        alert('Bye...');
-      } : false,
-      ajax: $(this).attr('hello-ajax') || false,
+      ajax: $(this).attr('hello-ajax') || false
     });
 
     exampleModal.show();
