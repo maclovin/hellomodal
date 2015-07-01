@@ -105,17 +105,14 @@ var Hello = function (options) {
           }
 
           $('.' + sheet.classes.myModal + ' .hello-close').click(function (){
-            if (options.close && typeof options.close == 'function') {
-                options.close();
-            }
-
             if (options.animation) {
-              elem.fadeOut();
               $('.hello-shadow').fadeOut();
+              elem.fadeOut();
               return;
+            } else {
+              $('.hello-shadow').hide();
+              elem.hide();
             }
-            elem.hide();
-            $('.hello-shadow').hide();
           });
 
           if (options.shadow) {

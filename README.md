@@ -15,13 +15,13 @@ _Actually the hello component check if you got a JSS object created or not.  So,
 
 - Auto position calcs to centralize modal component
 
-- Full size mode 
+- Full size mode
 
 - Shadow background
 
 - Show/Hide animation
 
-- Callback execution on modal events (Close, Load and Submit)
+- Callback execution on modal events (Load and Submit)
 
 - Ajax content
 
@@ -60,73 +60,66 @@ Javascript:
 		animation: true,
 		shadow, true,
 		ajax: '/something.html',
-		submit: function() { 
-			alert('sup, dude :P'); 
+		submit: function() {
+			alert('sup, dude :P');
 		}
 	});
-	
+
 	myModal.show();
 ```
 
 ## Settings
 
 #### element (required)
-**Type:** _string_ or jquery selector _object_ 
+**Type:** _string_ or jquery selector _object_
 
 ---
 
 #### width
-**Type:** _integer_ 
+**Type:** _integer_
 
 ---
 
 #### height
-**Type:** _integer_ 
+**Type:** _integer_
 
 ---
 
 #### full
-**Type:** _boolean_ 
+**Type:** _boolean_
 
 Show the full size modal.
 
 ---
 
 #### animation
-**Type:** _boolean_ 
+**Type:** _boolean_
 
 ---
 
 #### shadow
-**Type:** _boolean_ 
+**Type:** _boolean_
 
 Show the shadow background and lock screen.
 
 ---
 
 #### load
-**Type:** _function_ 
+**Type:** _function_
 
 Execute callback after modal loading.
 
 ---
 
 #### submit
-**Type:** _function_ 
+**Type:** _function_
 
 Execute callback on ```.hello-submit``` click.
 
 ---
 
-#### close
-**Type:** _function_ 
-
-Execute callback on ```.hello-close``` click.
-
----
-
 #### ajax
-**Type:** _string_ 
+**Type:** _string_
 
 Input data received from a request on modal body.
 
@@ -145,6 +138,3 @@ Show/Hide modal with:
 ## License
 
 MIT 2015
-
-
-
