@@ -1,0 +1,26 @@
+{
+  "name": "hellomodal",
+  "version": "0.2.1",
+  "homepage": "https://github.com/maclovin/hellomodal",
+  "authors": [
+    "MacLovin <m4k2005@yahoo.com>"
+  ],
+  "description": "The modal component for developers",
+  "main": "dist/Hello.min.js",
+  "dependencies": {
+    "jquery": "1.11.3"
+  },
+  "keywords": [
+    "modal",
+    "hello",
+    "lightbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
